@@ -1,0 +1,31 @@
+.campHolder{
+    margin-top: 10px;
+    width: 40%;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lavender;
+    cursor: pointer;
+    border-bottom: solid 2px tan;
+
+    h4{
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .equipImg{
+        height: 300px;
+        width: 300px;
+        margin-bottom: 20px;
+
+        img{
+            margin: 0 auto;
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+}

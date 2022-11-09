@@ -1,0 +1,59 @@
+.campHolderFull{
+    margin-top: 10px;
+    width: 80%;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lavender;
+    cursor: pointer;
+    border-bottom: solid 2px tan;
+
+    h2{
+        font-size: 28px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .equipImgFull{
+        height: 400px;
+        width: 400px;
+        margin-bottom: 20px;
+
+        img{
+            margin: 0 auto;
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    .equipPrice{
+        font-size: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: fit-content;
+        height: min-content;
+        margin: 0 auto;
+    }
+    .equipDescrip{
+        font-size: 16px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        width: 80%;
+        height: min-content;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .close{
+        font-size: 20px;
+        margin-bottom: 10px;
+        background-color: lightpink;
+        width: fit-content;
+        height: min-content;
+    }
+}

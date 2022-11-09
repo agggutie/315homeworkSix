@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+
+#app {
+  width: 100%;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: lightcyan;
+}
+
+.campHolder {
+  margin-top: 10px;
+  width: 40%;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: lavender;
+  cursor: pointer;
+  border-bottom: solid 2px tan;
+}
+.campHolder h4 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.campHolder .equipImg {
+  height: 300px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+.campHolder .equipImg img {
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+}
+
+.campHolderFull {
+  margin-top: 10px;
+  width: 80%;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: lavender;
+  cursor: pointer;
+  border-bottom: solid 2px tan;
+}
+.campHolderFull h2 {
+  font-size: 28px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.campHolderFull .equipImgFull {
+  height: 400px;
+  width: 400px;
+  margin-bottom: 20px;
+}
+.campHolderFull .equipImgFull img {
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+}
+.campHolderFull .equipPrice {
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0 auto;
+}
+.campHolderFull .equipDescrip {
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  width: 80%;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.campHolderFull .close {
+  font-size: 20px;
+  margin-bottom: 10px;
+  background-color: lightpink;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
